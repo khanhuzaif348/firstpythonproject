@@ -1,0 +1,17 @@
+#program  add new number Or String to given set
+s1={"scala","tkinter","mongodb","CSS"}
+s1.add("java")
+print(s1)
+#output : {"scala","tkinter","mongodb","CSS","java"}
+#use of update function
+s1.update("s")
+print(s1)
+# output : {"scala","tkinter","mongodb","CSS","java","s"}
+#use of discard function if item don't find  output is as ot is list
+s1.discard("java")
+print(s1)
+#output : {"scala","tkinter","mongodb","CSS","s"}
+#use of remove function .  if item not find then o/p error 
+s1.remove("tkinter")
+print(s1)
+#Output : {"scala","mongodb","CSS","s"}
