@@ -1,0 +1,14 @@
+#Fimding a list in ascending order 
+List = [500,100,400,20,10]
+#using of sort function  .
+List.sort()
+print ("your list in ascending order = ",List)
+# output always ascending order 
+#output = your list in ascending order = [10,20,100,400,500]
+
+#Finding a list discending order 
+List1 = [60,10,50,90,299,76]
+#using sort function
+List1.sort(reverse =True)
+print(" your List in discending order = ",List1)
+#output = your List in discending order = [299,90,76,60,5010]
