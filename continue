@@ -1,0 +1,6 @@
+#the eg. of continue staement
+for letter in "python":
+    if letter == "t":
+        continue#continue Statement skip the value of thats are given in condition statement i.e if statement like this 
+    print(letter)
+#output = p y h o n
