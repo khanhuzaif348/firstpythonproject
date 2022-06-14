@@ -1,0 +1,7 @@
+# example of Break statement
+for letter in 'python':
+    if letter == "o":
+        break
+    print(letter)
+
+# output : p y t h 
