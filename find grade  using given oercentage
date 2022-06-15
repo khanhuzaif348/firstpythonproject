@@ -1,0 +1,20 @@
+'''question  Write a program to find out the grade of given percentage value
+accept from the user) and print the message according given
+criteria:
+• Greater then 70% print A grade message to the user.
+• Greater then 65% and less then 70% print B+ grade message to the user.
+• Greater then 60% and less then 65% print B grade message to the user.
+• Greater then 55% and less then 60% print C grade message to the user.
+• Less then 55% print Fail message to the user'''
+per = int(input("Enter percentage: "))
+
+if per > 70:
+    print("A+")
+elif per >65 and per < 70:
+        print("A")
+elif per > 60 and per < 65:
+            print("B")
+elif per >55 and per < 60 :
+                print("C")
+else:
+    print("fail")
