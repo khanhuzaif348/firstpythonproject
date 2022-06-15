@@ -1,0 +1,8 @@
+#updated string after writing a program
+a = "Hello world"
+print("current string :",a)
+#below print statement to print the updated string 
+print("updatede str:",a[:6]+"python")
+'''output : 
+current string : Hello world
+updatede str: Hello python'''
