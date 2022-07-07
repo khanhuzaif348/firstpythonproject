@@ -1,0 +1,36 @@
+# Match function 
+import re                                  # use of match function first we import re module
+pattern = r"^abcde"                        # '^' : this symbol is beginning symbol
+mystr = "abcdef"
+x  = re.match(pattern,mystr)               # syntax = re.match(pattern,string )   
+ print(x)
+ # output = <re.Match object; span=(0, 3), match='abc'>
+ 
+#search function using regular expression
+
+#search function 
+import re                                  # import re module
+txt =  "we are learning python"
+x =  re.search("\s",txt)                  # \s  to show the first space 
+print(x)
+#output = <re.Match object; span=(2, 3), match=' '>
+
+
+#Replacing function 
+import re 
+str1 = "youtube provide free education "
+print("Before  replacing   :    ",str1)
+result = re.sub(r"provide","python",str1)
+print("After replacing : ",result)
+
+'''OUTPUT : Before  replacing   :     youtube provide free education 
+After replacing :  youtube python free education''' 
+import re 
+str1 = "youtube provide free education "
+print("before  replacing    : ",str1)
+result = re.sub(r"[a-z]","0",str1)
+print("After replacing : ",result)
+
+'''OUTPUT : before  replacing   :     youtube provide free education 
+   After replacing :  0000000 0000000 0000 000000000''' 
+
